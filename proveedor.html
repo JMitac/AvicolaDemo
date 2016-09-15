@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avicola Santa Mercedes</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Avicola Santa Mercedez</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="proveedor.html">Proveedor</a></li>
+            <li><a href="venta.html">Venta</a></li>
+            <li><a href="despacho.html">Despacho</a></li>
+            <li><a href="consulta.html">Consultas</a></li>
+            <li><a href="index.html">Salir</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+<div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:-15px;">
+        	<br>
+          <h1 class="page-header">Registro Proveedor
+          	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Nuevo Cliente</button>
+          </h1>
+        <!--
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail" width="200" height="200">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail" width="200" height="200">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail" width="200" height="200">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="img-responsive" alt="Generic placeholder thumbnail" width="200" height="200">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+          </div>
+		-->
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Tp Doc</th>
+                  <th>Nro Doc</th>
+                  <th>Direccion</th>
+                  <th>IdUbigeo</th>
+                  <th>Email1</th>
+                  <th>Email2</th>
+                  <th>Email3</th>
+                  <th>Telefono1</th>
+                  <th>Telefono2</th>
+                  <th>Telefono3</th>
+                  <th>Accion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1001</td>
+                  <td>Proveedor1</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                <tr>
+                  <td>1002</td>
+                  <td>Proveedor2</td>
+                  <td>Boleta</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1003</td>
+                  <td>Proveedor3</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1004</td>
+                  <td>Proveedor4</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1005</td>
+                  <td>Proveedor5</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1006</td>
+                  <td>Proveedor6</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1007</td>
+                  <td>Proveedor7</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1008</td>
+                  <td>Proveedor8</td>
+                  <td>Factura</td>
+                  <td>10045187920</td>
+                  <td>av.aviacion 2420</td>
+                  <td>u-001</td>
+                  <td>proveedor@gmail.com</td>
+                  <td>email2@gmail.com</td>
+                  <td>email3@gmail.com</td>
+                  <td>245-9874</td>
+                  <td>992145853</td>
+                  <td>997720312</td>
+                  <td>
+                  	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="Datos de Prueba">Modificar</button>
+                  	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2" data-whatever="@holi">Eliminar</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="exampleModalLabel">Actualizar Proveedor</h4>
+	      </div>
+	      <div class="modal-body">
+	        <!-- <form> -->
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="recipient-name" class="control-label">Nombre:</label>
+	            <input type="text" class="form-control" id="recipient-name"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Tipo Documento:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	       	<div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Nro Documento:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Direccion:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	       	<div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">IdUbigeo:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Email1:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Email2:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Email3:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Telefono1:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Telefono2:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Telefono3:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <!-- </form> -->
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+	        <button type="button" class="btn btn-primary">Actualizar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro</h5>
+	      </div>
+	      <div class="modal-body">
+	      	<h4>¿Esta seguro que desea eliminar este registro?</h4>
+	      </div>
+	     
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Send message</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="static" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+    	<div class="modal-body">
+        	<p>Would you like to continue with some arbitrary task?</p>
+    	</div>
+      	<div class="modal-footer">
+        	<button type="button" data-dismiss="modal" class="btn">Cancel</button>
+        	<button type="button" data-dismiss="modal" class="btn btn-primary">Continue Task</button>
+      	</div>
+    </div>
+
+	<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="exampleModalLabel">Agregar Nuevo Proveedor</h4>
+	      </div>
+	      <div class="modal-body">
+	        <!-- <form> -->
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="recipient-name" class="control-label">Nombre:</label>
+	            <input type="text" class="form-control" id="recipient-name"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Tipo Documento:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	       	<div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Nro Documento:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Direccion:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	       	<div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">IdUbigeo:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Email1:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Email2:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Email3:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Telefono1:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Telefono2:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	            <label for="message-text" class="control-label">Telefono3:</label>
+	            <input class="form-control" id="message-text"/>
+	          </div>
+	        </div>
+	        <!-- </form> -->
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+	        <button type="button" class="btn btn-primary">Actualizar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- other modal-->
+	<div id="responsive" class="modal hide fade" tabindex="-1" data-width="760">
+  		<div class="modal-header">
+    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    		<h3>Responsive</h3>
+  		</div>
+	  	<div class="modal-body">
+		    <div class="row-fluid">
+		    	<div class="span6">
+		        <h4>Some Input</h4>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		      </div>
+		      <div class="span6">
+		        <h4>Some More Input</h4>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		        <p><input type="text" class="span12"></p>
+		      </div>
+		    </div>
+	  	</div>
+	    <div class="modal-footer">
+	    	<button type="button" data-dismiss="modal" class="btn">Close</button>
+	    	<button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	</div>
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$('#exampleModal').on('show.bs.modal', function (event) {
+		  var button = $(event.relatedTarget) // Button that triggered the modal
+		  var recipient = button.data('whatever') // Extract info from data-* attributes
+		  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+		  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+		  var modal = $(this)
+		  modal.find('.modal-body input').val(recipient)
+		});
+
+		$('#exampleModal2').on('show.bs.modal', function (event) {
+		});
+
+		$('#exampleModal3').on('show.bs.modal', function (event) {
+		});
+
+		$('#static').on('show.bs.modal', function (event) {
+		});
+	</script>
+</body>
+</html>
